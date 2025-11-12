@@ -30,6 +30,7 @@ async function handleGetAnalytics(req, res) {
         analytics: result.visitHistory,
     });
 }
-module.exports = { newShortURL,
+module.exports = {
+    newShortURL,
     handleGetAnalytics
- };
+};
